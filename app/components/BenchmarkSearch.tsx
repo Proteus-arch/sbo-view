@@ -22,7 +22,7 @@ export default function BenchmarkSearch({ onSelectBenchmark }: { onSelectBenchma
     return () => clearTimeout(timer);
   }, [query]);
 
-  const handleSelect = (match: any) => {
+  const handleSelect = (match:any) => {
     setSelected(match);
     onSelectBenchmark(match);
     setResults([]);
