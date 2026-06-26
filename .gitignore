@@ -1,0 +1,36 @@
+# Next.js build output
+.next/
+out/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Debug files
+backend/debug_*.json
+backend/qb_tokens.json
+backend/token_store.json
+
+# Database files
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Large data files
+backend/data/*.csv
+backend/*.csv
+
+# Node modules (should already be there, but double-check)
+node_modules/
