@@ -45,3 +45,4 @@ The platform includes a specialized **Sample Data Mode** to demonstrate the engi
 If you see a warning about "inferred workspace root" and multiple lockfiles, it's because Next.js is detecting other `package-lock.json` files in parent directories (e.g., in `OneDrive` or `Documents`). To fix this:
 - Ensure you are running `npm` commands from the `draft2026` directory.
 - You can safely ignore this warning if the app loads, or follow the link in the warning to set a fixed root in `next.config.mjs`.
+"// trigger deploy" 
